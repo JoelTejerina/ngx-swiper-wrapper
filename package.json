@@ -1,0 +1,33 @@
+{
+  "name": "ngx-swiper-wrapper",
+  "description": "Angular wrapper library for Swiper",
+  "bugs": "https://github.com/JoelTejerina/ngx-swiper-wrapper",
+  "version": "17.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelTejerina/ngx-swiper-wrapper"
+  },
+  "peerDependencies": {
+    "swiper": "6.x",
+    "@angular/common": ">=9.0.0",
+    "@angular/core": ">=9.0.0"
+  },
+  "module": "fesm2022/ngx-swiper-wrapper.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-swiper-wrapper.mjs",
+      "esm": "./esm2022/ngx-swiper-wrapper.mjs",
+      "default": "./fesm2022/ngx-swiper-wrapper.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
